@@ -1,8 +1,49 @@
-h1 {
-    color: #ffff
+/*STYLE FOR MAIN PAGE*/
+
+.mainmenuheader{
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+}
+.gametitlediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 100px;
+    text-align: center;
 
 }
 
-body {
-    background-color: #000;
+.startbtn{
+    display:block;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: center;
+
+}
+.startbtn:hover{
+    background-color: #1F1D36;
+    font-color: #fff
+}
+.button_section{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+
+
+
+}
+
+
+
+
+
+
+
+body{
+    background-color: #142F43;
 }
