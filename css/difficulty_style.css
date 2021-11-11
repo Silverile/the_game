@@ -2,3 +2,51 @@
 body{
     background-color: #142F43;
 }
+/*CROSS BUTTON*/
+.goback_btn{
+    position: relative;
+    height: 50px;
+    width: 50px;
+
+}
+
+.difficulty_screen{
+    font-family: 'Press Start 2P', cursive;
+}
+.difficulty_title{
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 50px;
+}
+/*CARDS*/
+.card_sel_easy{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+.card_sel_medium{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+.card_sel_hard{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+/*BUTTONS*/
+.difficulty_sel_easy{
+    background-color: white;
+
+}
+.difficulty_sel_medium{
+    background-color: white;
+}
+.difficulty_sel_hard{
+    background-color: white;
+}
