@@ -3,4 +3,109 @@
 
 body{
     background-color: #142F43;
+    color:#eee;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.btm-container
+{
+    color: #eee
+}
+
+.pg-container {
+    display: grid;
+    margin-top: 100px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". pg-label ."
+      ". pg-number ."
+      ". pg-input ."
+      ". pg-check .";
+  }
+  
+  .pg-label {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      "greeting-box greeting-box greeting-box"
+      ". . .";
+    grid-area: pg-label;
+  }
+  
+  .greeting-box { grid-area: greeting-box; }
+  
+  .pg-number {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      ". number-box ."
+      ". . .";
+    grid-area: pg-number;
+  }
+  
+  .number-box { grid-area: number-box; }
+  
+  .pg-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      "input-box input-box input-box"
+      ". . .";
+    grid-area: pg-input;
+  }
+  
+  .input-box { grid-area: input-box; }
+  
+  .pg-check {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". check-btn-box ."
+      ". . ."
+      ". . .";
+    grid-area: pg-check;
+  }
+  
+  .check-btn-box { grid-area: check-btn-box; }
+  
+
+
+  .btn{
+    position: absolute;
+    left: 46%; 
+}
+
+.attempts{
+    position: absolute;
+    left: 45%; 
+}
+
+.number{
+    background: #eee;
+    color: #333;
+    font-size: 3rem;
+    width: 15rem;
+}
+.check{
+    
+    
 }
