@@ -3,7 +3,7 @@
 let secretNumber = Math.trunc(Math.random() * 100) + 1;
 let score = 20;
 let highscore = 0;
-
+let refresh_text = "Try to guess the number!";
 let winText = "Congratulations, you won!"
 
 const displayMessage = function (message) {
@@ -50,7 +50,7 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.score').textContent = score;
   document.querySelector('.number').textContent = '?';
   document.querySelector('.guess').value = '';
-
+  document.querySelector('.try-text').textContent = refresh_text;
   document.querySelector('body').style.backgroundColor = '#142F43';
   document.querySelector('.number').style.width = '15rem';
 });
