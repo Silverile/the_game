@@ -85,18 +85,17 @@ body{
     grid-area: pg-check;
   }
   
-  .check-btn-box { grid-area: check-btn-box; }
-  
-
-
-  .btn{
-    position: absolute;
-    left: 46%; 
-}
-
+  .check-btn-box {
+       grid-area: check-btn-box; 
+        justify-content: center ;
+    
+    }
 .attempts{
     position: absolute;
     left: 45%; 
+}
+.guess{
+    width: 150px;
 }
 
 .number{
@@ -105,7 +104,14 @@ body{
     font-size: 3rem;
     width: 15rem;
 }
+
 .check{
+    border:#eee solid;
+    color: #eee;
+    margin-top: 10px;
     
     
+}
+.again{
+    margin-right: 100px;
 }
